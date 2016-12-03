@@ -1,0 +1,31 @@
+body {
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(255, 0, 0);
+}
+
+nav {
+    background-color: green;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+   padding: 5px; 
+    display: inline;
+}
+
+section {
+    background-color: yellow;
+}
+
+footer {
+    background-color: green;
+}
