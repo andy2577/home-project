@@ -29,3 +29,21 @@ section {
 footer {
     background-color: green;
 }
+
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
+}
+
+h2 {
+    clear: both;
+}
+
+img {
+    max-width: 500px;
+    width: auto;
+    height: auto;
+}
