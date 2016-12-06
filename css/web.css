@@ -9,6 +9,8 @@ nav ul {
 nav ul li {
     padding: 2px 5px;
     display: inline-block;
+    /*display: block;*/
+    /*float: left;*/
     background-color: gray;
     margin: 0 -2px 0 -2px;
 }
