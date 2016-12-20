@@ -13,7 +13,7 @@ nav ul li {
     padding: 2px 5px;
     /*display: inline-block;*/
     background-color: gray;
-    margin: 0 -2px 0 -2px;
+    /*margin: 0 -2px 0 -2px;*/
 }
 
 nav ul li a {
@@ -44,8 +44,12 @@ footer {
     /*float: right;*/
 }
 
+h1 {
+    margin-left: 5px;
+}
 h2 {
     clear: both;
+    margin-left: 5px;
 }
 
 img {
