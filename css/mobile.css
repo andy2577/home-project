@@ -55,3 +55,17 @@ img {
     height: auto;
     /*margin: 5px;*/
 }
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    align-items: center;
+}

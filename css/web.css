@@ -2,8 +2,11 @@ p {
     padding: 5px;
 }
 
+h2 {
+    padding-top: 20px;
+}
 nav ul {
-    text-align: center;
+    /*text-align: center;*/
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -56,4 +59,30 @@ img {
     width: auto;
     height: auto;
     margin: 5px;
+}
+
+
+/*This is an attempt to fix position of the menu */
+
+.fixed {
+    position: fixed;
+    top: 0;
+    /*left: 0;*/
+    margin: 0 auto;
+    background-color: gray;
+}
+
+.subscribe {
+    position:fixed;
+    bottom: 0;
+    margin: 0 auto;
+    background-color: white;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+.references {
+    margin-bottom: 60px;
 }
