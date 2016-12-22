@@ -9,7 +9,6 @@ $(function() {
 
     $(window).scroll(function() {
         if ($(window).scrollTop() > elementPosition.top) {
-            // $('#nav').css('position', 'fixed').css('top', '0').css('left', '11.5%');
             $('nav').addClass("fixed");
             $('article#top').addClass('top');
             $('#subscribe').addClass("subscribe");
@@ -37,16 +36,5 @@ $(function() {
             $('form').html('<h2>Thank You For Subscribing.</h2>');
         });
     });
-
-
-    // Attamept to animate articles
-    // var test = $('article.biography').position();
-    // // console.log(test);
-    // $(window).scroll(function() {
-    //     if ($(window).scrollTop() > test.top) {
-    //         $('.biography').addClass('animated fadeInLeft');
-    //     }
-    // });
-
 
 });

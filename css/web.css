@@ -35,7 +35,7 @@ img {
 /*This is an attempt to fix position of the menu */
 
 .fixed {
-    position: fixed !Important;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
