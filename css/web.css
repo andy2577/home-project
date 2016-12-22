@@ -75,8 +75,9 @@ form {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    border-style: solid;
     border: 1px;
+    border-style: solid;
+    border-color: rgb(232, 234, 237);
 }
 
 .references {
