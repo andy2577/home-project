@@ -1,5 +1,9 @@
 $(function() {
 
+    // Initialize WOW
+    new WOW().init();
+    
+    
     // POSITIONING
     var elementPosition = $('nav').position();
 
@@ -33,5 +37,16 @@ $(function() {
             $('form').html('<h2>Thank You For Subscribing.</h2>');
         });
     });
+
+
+    // Attamept to animate articles
+    // var test = $('article.biography').position();
+    // // console.log(test);
+    // $(window).scroll(function() {
+    //     if ($(window).scrollTop() > test.top) {
+    //         $('.biography').addClass('animated fadeInLeft');
+    //     }
+    // });
+
 
 });
