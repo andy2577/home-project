@@ -1,18 +1,10 @@
 body {
     max-width: 970px;
-    margin: 0 auto;
+    margin: 0 auto !important;
     font-family: 'Yantramanav', sans-serif;
 }
 
 blockquote {
     font-family: 'Dancing Script', cursive;
     font-size: larger;
-}
-
-header {
-    /*background-color: rgb(255, 0, 0);*/
-}
-
-nav {
-    /*background-color: green;*/
 }

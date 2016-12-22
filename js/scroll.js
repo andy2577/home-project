@@ -1,33 +1,19 @@
-// This script will try to add a class .fixed to nav 
-
-// var nav = $("#nav");
-// var body = $("body");
-
-// body.on("scroll", function(e) {
-
-//   if (this.scrollTop > 147) {
-//     nav.addClass("fixed");
-//   } else {
-//     nav.removeClass("fixed");
-//   }
-
-// });
-
 $(function() {
 
     // POSITIONING
-    var elementPosition = $('#nav').position();
+    var elementPosition = $('nav').position();
 
     $(window).scroll(function() {
         if ($(window).scrollTop() > elementPosition.top) {
             // $('#nav').css('position', 'fixed').css('top', '0').css('left', '11.5%');
-            $('#nav').addClass("fixed");
+            $('nav').addClass("fixed");
+            $('article#top').addClass('top');
             $('#subscribe').addClass("subscribe");
         }
         else {
-            $('#nav').removeClass("fixed");
+            $('nav').removeClass("fixed");
+            $('article#top').removeClass('top');
             $('#subscribe').removeClass("subscribe");
-            // $('#nav').css('position', 'static');
         }
     });
 

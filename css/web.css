@@ -3,44 +3,8 @@ p {
 }
 
 h2 {
-    padding-top: 20px;
-}
-
-nav ul {
-    /*text-align: center;*/
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    padding: 2px 5px;
-    display: inline-block;
-    /*display: block;*/
-    /*float: left;*/
-    background-color: gray;
-    margin: 0 -2px 0 -2px;
-}
-
-nav ul li a {
-    display: block;
-    padding: auto;
-    /*padding: 8px;*/
-    /*background-color: gray;*/
-    text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    background-color: black;
-}
-
-section {
-    /*background-color: yellow;*/
-}
-
-footer {
-    /*background-color: green;*/
+    padding-top: 70px;
+    clear: both;
 }
 
 .float_left {
@@ -51,8 +15,9 @@ footer {
     float: right;
 }
 
-h2 {
-    clear: both;
+.center {
+    display: block;
+    margin: 0 auto;
 }
 
 img {
@@ -66,22 +31,44 @@ img {
 /*This is an attempt to fix position of the menu */
 
 .fixed {
-    position: fixed;
+    position: fixed !Important;
     top: 0;
-    /*left: 0;*/
+    left: 0;
+    right: 0;
+    max-width: 970px;
     margin: 0 auto;
-    background-color: gray;
+}
+
+/*This is fix for fixed position*/
+.top {
+    margin-top: 84px;
 }
 
 .subscribe {
     position: fixed;
     bottom: 0;
+    right:0;
+    left: 0;
+    max-width: 970px;
     margin: 0 auto;
     background-color: white;
 }
 
+footer ul {
+    margin-bottom: 0;
+}
+
 footer ul li {
     display: inline-block;
+}
+
+form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .references {
